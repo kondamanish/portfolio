@@ -1,0 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+}
+.side-bar {
+     background-color: rgb(163, 160, 160);
+     width: 300px;
+    font-family: sans-serif;
+    height: 200vh;
+    cursor: pointer;
+}
+.side-bar nav {
+    padding: 22px;
+}
+.side-bar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 25px 0px;
+}
+.side-bar nav li a{
+    color: black;
+    text-decoration: none;
+}
+.blogItem {
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.blogcontainer h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 23px;
+}
+.btn {
+    margin-top: 10px;
+    padding: 3px;
+    border-radius: 7px;
+    width: 77px;
+    font-size: 13px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(66, 158, 237);
+    color: rgb(2, 7, 7);;
+}
